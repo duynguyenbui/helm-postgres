@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-15T16:50:44.086948+07:00"
+    description: A Helm chart for Kubernetes
+    digest: bf8e31204cde08516f330be056cf82b117cdfef9ce517cfdde8418798db7c3ce
+    name: postgres
+    type: application
+    urls:
+    - publish/postgres-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-15T16:50:44.08669+07:00"

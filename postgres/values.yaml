@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: postgres
+  tag: latest
+  pullPolicy: IfNotPresent
+
+secret:
+  password: postgrespw
+
+persistentVolumeClaim:
+  size: 200Mi
+  volumeMode: Filesystem
+  accessMode: ReadWriteOnce
+
+service:
+  port: 5432
+  targetPort: 5432 
